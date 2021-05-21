@@ -1,4 +1,4 @@
-FROM criachi/basic-deploy:latest
+FROM 614577/basic-deploy:latest
 
 # Copies your code file from your action repository to the filesystem path `/` of the container
 COPY entrypoint.sh /entrypoint.sh
